@@ -46,7 +46,7 @@ return(
                                     key={genre}
                                     className="px-2 py-1 text-sm font-medium text-gray-700 border rounded hover:bg-gray-200 dark:text-gray-300 dark:border-gray-600 dark:hover:bg-gray-700"
                                     >
-                                        {genre}
+                                        {genre} 
                                     </button>
                                 ))}
                             </div>
