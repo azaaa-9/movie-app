@@ -20,14 +20,14 @@ export const Footer = () => {
               <Mail />
               <div>
                 <p>Email:</p>
-                <p>support@movieZ.com</p>
+                <p>24LP2306@nest.edu.com</p>
               </div>
             </div>
             <div className="flex gap-3 items-center" id="phone">
               <Phone />
               <div>
                 <p>Phone:</p>
-                <p>+976 (11) 123-4567</p>
+                <p>+976 (95) 342-030</p>
               </div>
             </div>
           </div>
