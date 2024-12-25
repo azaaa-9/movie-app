@@ -1,5 +1,6 @@
 "use client"
-import Image from "next/image";
+
+import { Card } from "@/components/ui/card";
 import { useEffect } from "react";
 export const API_KEY = 'f39690f9830ce804b7894ac1def4f7e9';
 const options = {
@@ -21,7 +22,6 @@ export default function Home() {
  });
   return (
     <div >
-      
     </div>
   );
 }
