@@ -56,13 +56,6 @@ return(
 </span>
 
 
-
-
-
-
-
-
-
         <button onClick={toggleTheme} className="p-4 text-gray-900 bg-gray-200 rounded-lg dark:bg-gray-700 dark:text-gray-100 hover:bg-gray-400 dark:hover:bg-gray-400">
             {theme === `light` ? <Sun/> : <Moon/>}
         </button>
