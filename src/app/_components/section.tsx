@@ -2,7 +2,6 @@
 import { Movie } from "./constants/type";
 import { Options } from "./constants/type";
 import { MovieCard } from "./movieCard";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 type Props = {
@@ -13,7 +12,7 @@ type Props = {
 export const Section = async ({title, endpoint}: Props) => {
 
     const response = await fetch(
-        `https://api.themoviedb.org/3/movie/${endpoint}?language=en-US&page=3`,
+        `https://api.themoviedb.org/3/movie/${endpoint}?language=en-US&page=1`,
         Options
         
     )
