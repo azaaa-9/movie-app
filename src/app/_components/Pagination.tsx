@@ -1,6 +1,7 @@
 "use client"
 
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
+import { CustomPagination } from "./customPagination";
 
 export const Pagination = ()=> {
     const pathName = usePathname();
@@ -18,6 +19,7 @@ export const Pagination = ()=> {
             <div onClick={() => onChangePage(1)}>1</div>
             <div onClick={() => onChangePage(2)}>2</div>
             <div onClick={() => onChangePage(3)}>3</div>
+            <CustomPagination />
         </div>
     )
 }

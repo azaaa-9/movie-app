@@ -14,7 +14,7 @@ export default function Page() {
     useEffect(() => {
         const fetchMovies = async() => {
             const response = await fetch (
-                `https://api.themoviedb.org/3/movie/${params.category}?language=en-US&page=1`,
+                `https://api.themoviedb.org/3/movie/${params.category}?language=en-US&page=${page}`,
                 Options
             );
             const resJson =await response.json();
