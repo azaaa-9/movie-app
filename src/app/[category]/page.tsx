@@ -24,7 +24,7 @@ export default function Page() {
         fetchMovies();
     },[params]);
 
-     return (
+     return ( 
         <div>
             <h1 className="font-bold">{params.category}</h1>
             <div className="p-4 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">

@@ -4,7 +4,6 @@ import { Options } from "../../_components/constants/type"
 type Props={
     params: {
         id: string;
-        
     }
 }
 
@@ -25,8 +24,6 @@ export default async function Page ({ params }: Props) {
             <p>{data.release_date}</p>
             <img src={src} />
             <p>{data.overview}</p>
-            <p>{data.director}</p>
-            
             </div>
     )
 }
